@@ -8,7 +8,6 @@ export class NavbarComponent extends TailwindElement(style) {
   navBarItems = [
     { label: "Dashboard", route: "dashboard" },
     { label: "Users", route: "users" },
-    { label: "Logout", route: "logout" },
   ];
 
   changeMainContent(route: string) {
