@@ -1,4 +1,4 @@
-import { PropertyValueMap, html } from "lit";
+import { html } from "lit";
 import { customElement, query } from "lit/decorators.js";
 import { TailwindElement } from "../shared/tailwind.element";
 import style from "./users.component.scss?inline";
@@ -13,9 +13,6 @@ export class UsersComponent extends TailwindElement(style) {
   constructor() {
     super();
     this.fetchData();
-  }
-  firstUpdated(): void {
-    console.log(this.head);
   }
 
   fetchData = async () => {

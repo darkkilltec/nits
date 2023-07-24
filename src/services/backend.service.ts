@@ -1,5 +1,3 @@
-// backend.service.ts
-
 import { User } from "../shared/types";
 
 class BackendService {
